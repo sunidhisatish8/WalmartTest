@@ -1,0 +1,18 @@
+[versions]
+
+# kotlin
+coroutines = "1.6.4"
+
+# gson
+gson = "2.10.1"
+# network
+retrofit = "2.9.0"
+okhttp = "4.10.0"
+# lifecycle
+lifecycle = "2.5.1"
+lifecycleCommonJvm = "2.8.7"
+uiTestAndroid = "1.7.6"
+[libraries]
+androidx-lifecycle-common-jvm = { group = "androidx.lifecycle", name = "lifecycle-common-jvm", version.ref = "lifecycleCommonJvm" }
+androidx-ui-test-android = { group = "androidx.compose.ui", name = "ui-test-android", version.ref = "uiTestAndroid" }
+
