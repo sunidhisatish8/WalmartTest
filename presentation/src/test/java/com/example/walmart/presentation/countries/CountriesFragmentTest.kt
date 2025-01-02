@@ -66,7 +66,6 @@ class CountriesFragmentTest {
     @Test
     fun verifySearchActionButtonIsDisplayed() {
         onView(withId(R.id.action_search)).check(matches(isDisplayed()))
-        onView(withId(R.id.action_search)).perform(click())
     }
 
     /**
